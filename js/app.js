@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const listItems = document.querySelectorAll('.list-item')
     const deleteButton = document.querySelector('#delete-button')
-    listItems.forEach((item) => {
+    listItems.forEach(function (item) {
         deleteButton.addEventListener('click', handleDelete);
     })
     
